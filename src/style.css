@@ -1,0 +1,84 @@
+/* Grid.css */
+
+.grid-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-wrapper {
+  margin: auto;
+  width: 60%;
+  display: flex;
+}
+
+.grid-table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grid-cell {
+  position: relative;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s;
+}
+
+.grid-cell:hover {
+  background-color: #f9f9f9;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.reference-table-container {
+  width: 40%;
+  margin: auto;
+}
+
+.reference-table {
+  border: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.grid-controls {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.control-button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.control-button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.save {
+  background-color: #2196f3;
+  color: white;
+}
+
+.load {
+  background-color: #f44336;
+  color: white;
+}
