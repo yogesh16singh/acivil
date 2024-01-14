@@ -22,12 +22,12 @@
 
 .grid-cell {
   position: relative;
-  border: 1px solid #ddd;
+  border: 2px solid #1f1414;
   transition: background-color 0.3s;
 }
 
 .grid-cell:hover {
-  background-color: #f9f9f9;
+  background-color: rgb(138, 138, 202);
 }
 
 input {
@@ -60,6 +60,7 @@ input {
 .control-button {
   width: 150px;
   height: 40px;
+  margin: 10px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -70,7 +71,8 @@ input {
 
 .control-button:hover {
   background-color: #4caf50;
-  color: white;
+  color: black;
+  font-size: medium;
 }
 
 .save {
@@ -81,4 +83,8 @@ input {
 .load {
   background-color: #f44336;
   color: white;
+}
+
+.heading-name {
+  background-color: aquamarine;
 }
